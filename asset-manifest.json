@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mealplan/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/mealplan/static/js/main.b6b9e0a5.chunk.js",
+    "main.js.map": "/mealplan/static/js/main.b6b9e0a5.chunk.js.map",
+    "runtime-main.js": "/mealplan/static/js/runtime-main.79551299.js",
+    "runtime-main.js.map": "/mealplan/static/js/runtime-main.79551299.js.map",
+    "static/js/2.62f8a099.chunk.js": "/mealplan/static/js/2.62f8a099.chunk.js",
+    "static/js/2.62f8a099.chunk.js.map": "/mealplan/static/js/2.62f8a099.chunk.js.map",
+    "static/js/3.95ee811e.chunk.js": "/mealplan/static/js/3.95ee811e.chunk.js",
+    "static/js/3.95ee811e.chunk.js.map": "/mealplan/static/js/3.95ee811e.chunk.js.map",
+    "index.html": "/mealplan/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/mealplan/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.62f8a099.chunk.js.LICENSE.txt": "/mealplan/static/js/2.62f8a099.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/mealplan/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.79551299.js",
+    "static/js/2.62f8a099.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.b6b9e0a5.chunk.js"
+  ]
+}
