@@ -1,8 +1,15 @@
 import React from 'react';
-import { Layout } from './components/Layout';
+import { Calendar, Copyright, Layout } from './components';
 
 function App() {
-  return <Layout header={null} main={<h1>Hello, World!</h1>} footer={null} />;
+  const now = new Date();
+  return (
+    <Layout
+      header={<h1>Hello, World!</h1>}
+      main={<Calendar month={now} />}
+      footer={<Copyright date={now} />}
+    />
+  );
 }
 
 export default App;
