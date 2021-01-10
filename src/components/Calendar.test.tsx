@@ -226,73 +226,10 @@ describe(`getWeeks(month, startOfWeek)`, () => {
   });
 });
 
-describe.skip(`<Calendar month={date} />`, () => {
+describe(`<Calendar month={date} />`, () => {
   it(`should render a calendar for the specific month`, () => {
     const { container } = render(<Calendar month={new Date(2020, 0)} />);
 
-    expect(container).toMatchInlineSnapshot(`
-      <div>
-        <table>
-          <thead>
-            <tr>
-              <th>Sunday</th>
-              <th>Monday</th>
-              <th>Tuesday</th>
-              <th>Wednesday</th>
-              <th>Thursday</th>
-              <th>Friday</th>
-              <th>Saturday</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><span>29</span></td>
-              <td><span>30</span></td>
-              <td><span>31</span></td>
-              <td><span>01</span></td>
-              <td><span>02</span></td>
-              <td><span>03</span></td>
-              <td><span>04</span></td>
-            </tr>
-            <tr>
-              <td><span>05</span></td>
-              <td><span>06</span></td>
-              <td><span>07</span></td>
-              <td><span>08</span></td>
-              <td><span>09</span></td>
-              <td><span>10</span></td>
-              <td><span>11</span></td>
-            </tr>
-            <tr>
-              <td><span>12</span></td>
-              <td><span>13</span></td>
-              <td><span>14</span></td>
-              <td><span>15</span></td>
-              <td><span>16</span></td>
-              <td><span>17</span></td>
-              <td><span>18</span></td>
-            </tr>
-            <tr>
-              <td><span>19</span></td>
-              <td><span>20</span></td>
-              <td><span>21</span></td>
-              <td><span>22</span></td>
-              <td><span>23</span></td>
-              <td><span>24</span></td>
-              <td><span>25</span></td>
-            </tr>
-            <tr>
-              <td><span>26</span></td>
-              <td><span>27</span></td>
-              <td><span>28</span></td>
-              <td><span>29</span></td>
-              <td><span>30</span></td>
-              <td><span>31</span></td>
-              <td><span>01</span></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    `);
+    expect(container).toMatchSnapshot();
   });
 });

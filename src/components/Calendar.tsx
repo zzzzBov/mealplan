@@ -64,8 +64,6 @@ export const getWeeks = (month: Date, startOfWeek: DayOfWeek): Date[][] => {
 
   const startDate = new Date(year, monthIndex, 1 + dayDelta);
 
-  console.log(startDate);
-
   const lastOfMonth = new Date(year, monthIndex + 1, 0);
 
   const weeks = [];
@@ -98,16 +96,16 @@ export const Calendar: FC<ICalendarProps> = ({
       <$Table>
         <$THead>
           <$HeaderRow>
-            {weekdays.map((weekday) => (
-              <$Header>{weekday}</$Header>
+            {weekdays.map((weekday, index) => (
+              <$Header key={index}>{weekday}</$Header>
             ))}
           </$HeaderRow>
         </$THead>
         <$TBody>
-          {weeks.map((week) => (
-            <$WeekRow>
-              {week.map((day) => (
-                <$WeekDay>
+          {weeks.map((week, weekIndex) => (
+            <$WeekRow key={weekIndex}>
+              {week.map((day, dayIndex) => (
+                <$WeekDay key={dayIndex}>
                   <$Date>{day.getDate()}</$Date>
                 </$WeekDay>
               ))}
