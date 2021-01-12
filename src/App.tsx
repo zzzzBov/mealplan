@@ -7,7 +7,7 @@ export interface IAppProps {}
 
 export const App: FC<IAppProps> = () => {
   const navigator = useContext(NavigationContext);
-  const [query] = useQueryString(navigator);
+  const [query, setQueryString] = useQueryString(navigator);
 
   const rawMonthParam = query.get('month');
 
@@ -32,9 +32,22 @@ export const App: FC<IAppProps> = () => {
     year: 'numeric',
   });
 
+  const click = () => {
+    const m = (((month.getMonth() + 1) % 12) + 1).toString().padStart(2, '0');
+    const y = (month.getFullYear() + Number(m === '01'))
+      .toString()
+      .padStart(4, '0');
+
+    setQueryString(
+      new URLSearchParams({
+        month: `${y}-${m}`,
+      })
+    );
+  };
+
   return (
     <Layout
-      header={<h1>{heading}</h1>}
+      header={<h1 onClick={click}>{heading}</h1>}
       main={<Calendar month={month} />}
       footer={<Copyright date={now} />}
     />

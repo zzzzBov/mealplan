@@ -37,7 +37,13 @@
       "react-app/jest"
     ],
     "rules": {
-      "react/jsx-pascal-case": 0
+      "react/jsx-pascal-case": 0,
+      "@typescript-eslint/no-unused-vars": [
+        "error",
+        {
+          "argsIgnorePattern": "^_"
+        }
+      ]
     }
   },
   "prettier": {

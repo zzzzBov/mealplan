@@ -1,8 +1,15 @@
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { INavigator, INavigatorListener } from '../navigation/Navigator';
 
-export const useQueryString = (navigator: INavigator) => {
-  const [searchParams, setSearchParams] = useState(navigator.url.searchParams);
+interface IQueryStringHook {
+  (navigator: INavigator): [
+    URLSearchParams,
+    (queryString: URLSearchParams) => void
+  ];
+}
+
+export const useQueryString: IQueryStringHook = (navigator: INavigator) => {
+  const [queryString, setSearchParams] = useState(navigator.url.searchParams);
 
   useEffect(() => {
     const listener: INavigatorListener = ({ url }) => {
@@ -14,5 +21,12 @@ export const useQueryString = (navigator: INavigator) => {
     };
   }, [navigator]);
 
-  return [searchParams];
+  const setQueryString = useCallback(
+    (queryString: URLSearchParams) => {
+      navigator.navigate(new URL(`?${queryString.toString()}`, navigator.url));
+    },
+    [navigator]
+  );
+
+  return [queryString, setQueryString];
 };
