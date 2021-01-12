@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.scss';
-import App from './App';
+import { App, AppContext } from './App';
+import { Navigator } from './navigation/Navigator';
 import reportWebVitals from './reportWebVitals';
 
+const navigator = new Navigator(window.location, window.history, window);
+
 ReactDOM.render(
-  <React.StrictMode>
+  <AppContext navigator={navigator}>
     <App />
-  </React.StrictMode>,
+  </AppContext>,
   document.querySelector('.Root')
 );
 
