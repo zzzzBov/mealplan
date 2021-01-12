@@ -26,9 +26,15 @@ export enum DayOfWeek {
   Saturday,
 }
 
-const $Wrapper = styled.div``;
+const $Wrapper = styled.div`
+  overflow: auto;
+`;
 
-const $Table = styled.table``;
+const $Table = styled.table`
+  min-width: 60rem;
+  table-layout: fixed;
+  width: 100%;
+`;
 
 const $THead = styled.thead``;
 
