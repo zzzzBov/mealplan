@@ -5,7 +5,9 @@ interface ICopyrightProps {
   date: Date;
 }
 
-const $Wrapper = styled.p``;
+const $Wrapper = styled.p`
+  margin: 0;
+`;
 
 export const Copyright: FC<ICopyrightProps> = ({ date }) => {
   const year = date.getFullYear();

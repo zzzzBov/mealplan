@@ -1,5 +1,11 @@
 import React, { FC, useContext, useMemo } from 'react';
-import { Calendar, Copyright, Layout, NavigationContext } from './components';
+import {
+  Calendar,
+  Copyright,
+  Heading,
+  Layout,
+  NavigationContext,
+} from './components';
 import { INavigator } from './navigation/Navigator';
 import { useQueryString } from './hooks/useQueryString';
 
@@ -27,11 +33,6 @@ export const App: FC<IAppProps> = () => {
 
   const now = new Date();
 
-  const heading = month.toLocaleString(window.navigator.language, {
-    month: 'long',
-    year: 'numeric',
-  });
-
   const click = () => {
     const m = (((month.getMonth() + 1) % 12) + 1).toString().padStart(2, '0');
     const y = (month.getFullYear() + Number(m === '01'))
@@ -47,7 +48,7 @@ export const App: FC<IAppProps> = () => {
 
   return (
     <Layout
-      header={<h1 onClick={click}>{heading}</h1>}
+      header={<Heading month={month} />}
       main={<Calendar month={month} />}
       footer={<Copyright date={now} />}
     />
