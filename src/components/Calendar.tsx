@@ -1,5 +1,6 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
+import { black, grey5, greyA, white } from '../styles';
 
 export enum Month {
   January,
@@ -31,6 +32,7 @@ const $Wrapper = styled.div`
 `;
 
 const $Table = styled.table`
+  border-collapse: collapse;
   min-width: 60rem;
   table-layout: fixed;
   width: 100%;
@@ -40,15 +42,35 @@ const $THead = styled.thead``;
 
 const $HeaderRow = styled.tr``;
 
-const $Header = styled.th``;
+const $Header = styled.th`
+  background-color: ${black};
+  border-color: ${black};
+  border-style: solid;
+  border-width: 0.1rem;
+  color: ${white};
+`;
 
 const $TBody = styled.tbody``;
 
 const $WeekRow = styled.tr``;
 
-const $WeekDay = styled.td``;
+const $WeekDay = styled.td`
+  border-color: ${greyA};
+  border-style: solid;
+  border-width: 0.1rem;
+  // height behaves like min-height for table cells
+  height: 9rem;
+  vertical-align: top;
+`;
 
-const $Date = styled.span``;
+interface IDateProps {
+  current: Boolean;
+}
+
+const $Date = styled.span<IDateProps>`
+  color: ${({ current }) => (current ? black : grey5)};
+  font-weight: ${({ current }) => (current ? 'bold' : 'normal')};
+`;
 
 export const getWeekdays = (startOfWeek: DayOfWeek): string[] => {
   const weekdays = [];
@@ -112,7 +134,9 @@ export const Calendar: FC<ICalendarProps> = ({
             <$WeekRow key={weekIndex}>
               {week.map((day, dayIndex) => (
                 <$WeekDay key={dayIndex}>
-                  <$Date>{day.getDate()}</$Date>
+                  <$Date current={day.getMonth() === month.getMonth()}>
+                    {day.getDate()}
+                  </$Date>
                 </$WeekDay>
               ))}
             </$WeekRow>
