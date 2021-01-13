@@ -2,6 +2,7 @@ import React, { FC, useContext, useMemo } from 'react';
 import {
   Calendar,
   Copyright,
+  Edit,
   Heading,
   Layout,
   NavigationContext,
@@ -13,7 +14,7 @@ export interface IAppProps {}
 
 export const App: FC<IAppProps> = () => {
   const navigator = useContext(NavigationContext);
-  const [query, setQueryString] = useQueryString(navigator);
+  const [query, _setQueryString] = useQueryString(navigator);
 
   const rawMonthParam = query.get('month');
 
@@ -33,22 +34,18 @@ export const App: FC<IAppProps> = () => {
 
   const now = new Date();
 
-  const click = () => {
-    const m = (((month.getMonth() + 1) % 12) + 1).toString().padStart(2, '0');
-    const y = (month.getFullYear() + Number(m === '01'))
-      .toString()
-      .padStart(4, '0');
-
-    setQueryString(
-      new URLSearchParams({
-        month: `${y}-${m}`,
-      })
-    );
+  const setMonth = (_date: Date) => {
+    // set the month in the query string
   };
 
   return (
     <Layout
-      header={<Heading month={month} />}
+      header={
+        <>
+          <Heading month={month} />
+          <Edit month={month} setMonth={setMonth} />
+        </>
+      }
       main={<Calendar month={month} />}
       footer={<Copyright date={now} />}
     />
