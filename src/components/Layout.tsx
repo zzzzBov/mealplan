@@ -15,6 +15,7 @@ const $Wrapper = styled.div`
     'main  ' 1fr
     'footer' auto;
   min-height: 100%;
+  padding: 4.8rem;
 `;
 
 const $Header = styled.header``;
