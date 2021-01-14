@@ -3,10 +3,10 @@
 exports[`<Calendar month={date} /> should render a calendar for the specific month 1`] = `
 <div>
   <div
-    class="sc-bdfBwQ"
+    class="sc-bdfBwQ kITiQG"
   >
     <table
-      class="sc-gsTCUz"
+      class="sc-gsTCUz gmhGfL"
     >
       <thead
         class="sc-dlfnbm"
@@ -15,37 +15,37 @@ exports[`<Calendar month={date} /> should render a calendar for the specific mon
           class="sc-hKgILt"
         >
           <th
-            class="sc-eCssSg"
+            class="sc-eCssSg diTdzL"
           >
             Sunday
           </th>
           <th
-            class="sc-eCssSg"
+            class="sc-eCssSg diTdzL"
           >
             Monday
           </th>
           <th
-            class="sc-eCssSg"
+            class="sc-eCssSg diTdzL"
           >
             Tuesday
           </th>
           <th
-            class="sc-eCssSg"
+            class="sc-eCssSg diTdzL"
           >
             Wednesday
           </th>
           <th
-            class="sc-eCssSg"
+            class="sc-eCssSg diTdzL"
           >
             Thursday
           </th>
           <th
-            class="sc-eCssSg"
+            class="sc-eCssSg diTdzL"
           >
             Friday
           </th>
           <th
-            class="sc-eCssSg"
+            class="sc-eCssSg diTdzL"
           >
             Saturday
           </th>
@@ -58,64 +58,64 @@ exports[`<Calendar month={date} /> should render a calendar for the specific mon
           class="sc-gKsewC"
         >
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw lagoKL"
             >
               29
             </span>
           </td>
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw lagoKL"
             >
               30
             </span>
           </td>
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw lagoKL"
             >
               31
             </span>
           </td>
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               1
             </span>
           </td>
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               2
             </span>
           </td>
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               3
             </span>
           </td>
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               4
             </span>
@@ -125,64 +125,64 @@ exports[`<Calendar month={date} /> should render a calendar for the specific mon
           class="sc-gKsewC"
         >
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               5
             </span>
           </td>
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               6
             </span>
           </td>
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               7
             </span>
           </td>
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               8
             </span>
           </td>
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               9
             </span>
           </td>
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               10
             </span>
           </td>
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               11
             </span>
@@ -192,64 +192,64 @@ exports[`<Calendar month={date} /> should render a calendar for the specific mon
           class="sc-gKsewC"
         >
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               12
             </span>
           </td>
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               13
             </span>
           </td>
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               14
             </span>
           </td>
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               15
             </span>
           </td>
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               16
             </span>
           </td>
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               17
             </span>
           </td>
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               18
             </span>
@@ -259,64 +259,64 @@ exports[`<Calendar month={date} /> should render a calendar for the specific mon
           class="sc-gKsewC"
         >
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               19
             </span>
           </td>
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               20
             </span>
           </td>
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               21
             </span>
           </td>
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               22
             </span>
           </td>
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               23
             </span>
           </td>
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               24
             </span>
           </td>
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               25
             </span>
@@ -326,64 +326,64 @@ exports[`<Calendar month={date} /> should render a calendar for the specific mon
           class="sc-gKsewC"
         >
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               26
             </span>
           </td>
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               27
             </span>
           </td>
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               28
             </span>
           </td>
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               29
             </span>
           </td>
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               30
             </span>
           </td>
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw feAofc"
             >
               31
             </span>
           </td>
           <td
-            class="sc-iBPRYJ"
+            class="sc-iBPRYJ gozOoe"
           >
             <span
-              class="sc-fubCfw"
+              class="sc-fubCfw lagoKL"
             >
               1
             </span>
