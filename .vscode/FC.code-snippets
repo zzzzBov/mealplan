@@ -22,7 +22,7 @@
       "import React, { FC } from 'react';",
       "import styled from 'styled-components';",
       "",
-      "interface ${2:I$1Props} {",
+      "export interface ${2:I$1Props} {",
       "\t$3",
       "}",
       "",

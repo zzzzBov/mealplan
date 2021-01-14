@@ -2,6 +2,7 @@ import React, { FC, useContext, useMemo } from 'react';
 import {
   Calendar,
   Copyright,
+  Day,
   Edit,
   Heading,
   Layout,
@@ -39,7 +40,7 @@ export const App: FC<IAppProps> = () => {
           <Edit month={month} setMonth={setMonth} />
         </>
       }
-      main={<Calendar month={month} />}
+      main={<Calendar month={month}>{Day}</Calendar>}
       footer={<Copyright date={now} />}
     />
   );

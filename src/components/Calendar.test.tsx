@@ -228,7 +228,11 @@ describe(`getWeeks(month, startOfWeek)`, () => {
 
 describe(`<Calendar month={date} />`, () => {
   it(`should render a calendar for the specific month`, () => {
-    const { container } = render(<Calendar month={new Date(2020, 0)} />);
+    const { container } = render(
+      <Calendar month={new Date(2020, 0)}>
+        {({ day }) => <>{day.getDate()}</>}
+      </Calendar>
+    );
 
     expect(container).toMatchSnapshot();
   });

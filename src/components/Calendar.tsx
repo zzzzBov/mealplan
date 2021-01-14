@@ -1,6 +1,6 @@
-import React, { FC } from 'react';
+import React, { ElementType, FC } from 'react';
 import styled from 'styled-components';
-import { black, grey5, greyA, white } from '../styles';
+import { black, greyA, white } from '../styles';
 
 export enum Month {
   January,
@@ -63,15 +63,6 @@ const $WeekDay = styled.td`
   vertical-align: top;
 `;
 
-interface IDateProps {
-  current: Boolean;
-}
-
-const $Date = styled.span<IDateProps>`
-  color: ${({ current }) => (current ? black : grey5)};
-  font-weight: ${({ current }) => (current ? 'bold' : 'normal')};
-`;
-
 export const getWeekdays = (startOfWeek: DayOfWeek): string[] => {
   const weekdays = [];
   for (let i = 0; i < 7; i++) {
@@ -107,12 +98,19 @@ export const getWeeks = (month: Date, startOfWeek: DayOfWeek): Date[][] => {
   return weeks;
 };
 
-interface ICalendarProps {
+export interface ICalendarDayProps {
+  day: Date;
+  month: Date;
+}
+
+export interface ICalendarProps {
+  children: ElementType<ICalendarDayProps>;
   month: Date;
   startOfWeek?: DayOfWeek;
 }
 
 export const Calendar: FC<ICalendarProps> = ({
+  children: Day,
   month,
   startOfWeek = DayOfWeek.Sunday,
 }) => {
@@ -134,9 +132,7 @@ export const Calendar: FC<ICalendarProps> = ({
             <$WeekRow key={weekIndex}>
               {week.map((day, dayIndex) => (
                 <$WeekDay key={dayIndex}>
-                  <$Date current={day.getMonth() === month.getMonth()}>
-                    {day.getDate()}
-                  </$Date>
+                  <Day month={month} day={day} />
                 </$WeekDay>
               ))}
             </$WeekRow>

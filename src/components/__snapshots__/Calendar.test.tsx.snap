@@ -60,65 +60,37 @@ exports[`<Calendar month={date} /> should render a calendar for the specific mon
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw lagoKL"
-            >
-              29
-            </span>
+            29
           </td>
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw lagoKL"
-            >
-              30
-            </span>
+            30
           </td>
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw lagoKL"
-            >
-              31
-            </span>
+            31
           </td>
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              1
-            </span>
+            1
           </td>
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              2
-            </span>
+            2
           </td>
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              3
-            </span>
+            3
           </td>
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              4
-            </span>
+            4
           </td>
         </tr>
         <tr
@@ -127,65 +99,37 @@ exports[`<Calendar month={date} /> should render a calendar for the specific mon
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              5
-            </span>
+            5
           </td>
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              6
-            </span>
+            6
           </td>
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              7
-            </span>
+            7
           </td>
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              8
-            </span>
+            8
           </td>
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              9
-            </span>
+            9
           </td>
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              10
-            </span>
+            10
           </td>
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              11
-            </span>
+            11
           </td>
         </tr>
         <tr
@@ -194,65 +138,37 @@ exports[`<Calendar month={date} /> should render a calendar for the specific mon
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              12
-            </span>
+            12
           </td>
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              13
-            </span>
+            13
           </td>
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              14
-            </span>
+            14
           </td>
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              15
-            </span>
+            15
           </td>
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              16
-            </span>
+            16
           </td>
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              17
-            </span>
+            17
           </td>
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              18
-            </span>
+            18
           </td>
         </tr>
         <tr
@@ -261,65 +177,37 @@ exports[`<Calendar month={date} /> should render a calendar for the specific mon
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              19
-            </span>
+            19
           </td>
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              20
-            </span>
+            20
           </td>
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              21
-            </span>
+            21
           </td>
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              22
-            </span>
+            22
           </td>
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              23
-            </span>
+            23
           </td>
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              24
-            </span>
+            24
           </td>
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              25
-            </span>
+            25
           </td>
         </tr>
         <tr
@@ -328,65 +216,37 @@ exports[`<Calendar month={date} /> should render a calendar for the specific mon
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              26
-            </span>
+            26
           </td>
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              27
-            </span>
+            27
           </td>
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              28
-            </span>
+            28
           </td>
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              29
-            </span>
+            29
           </td>
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              30
-            </span>
+            30
           </td>
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw feAofc"
-            >
-              31
-            </span>
+            31
           </td>
           <td
             class="sc-iBPRYJ gozOoe"
           >
-            <span
-              class="sc-fubCfw lagoKL"
-            >
-              1
-            </span>
+            1
           </td>
         </tr>
       </tbody>
