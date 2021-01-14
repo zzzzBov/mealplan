@@ -9,13 +9,13 @@ import {
 } from './components';
 import { INavigator } from './navigation/Navigator';
 import { useQueryString } from './hooks/useQueryString';
-import { dateFromString } from './utils';
+import { dateFromString, stringFromDate } from './utils';
 
 export interface IAppProps {}
 
 export const App: FC<IAppProps> = () => {
   const navigator = useContext(NavigationContext);
-  const [query, _setQueryString] = useQueryString(navigator);
+  const [query, setQueryString] = useQueryString(navigator);
 
   const rawMonthParam = query.get('month');
 
@@ -25,8 +25,10 @@ export const App: FC<IAppProps> = () => {
 
   const now = new Date();
 
-  const setMonth = (_date: Date) => {
-    // set the month in the query string
+  const setMonth = (date: Date) => {
+    const q = new URLSearchParams(query.toString());
+    q.set('month', stringFromDate(date));
+    setQueryString(q);
   };
 
   return (

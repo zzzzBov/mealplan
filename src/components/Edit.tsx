@@ -1,6 +1,6 @@
-import React, { FC } from 'react';
+import React, { FC, FormEvent } from 'react';
 import styled from 'styled-components';
-import { stringFromDate } from '../utils';
+import { dateFromString, stringFromDate } from '../utils';
 
 interface IEditProps {
   month: Date;
@@ -19,6 +19,11 @@ const $Input = styled.input`
   }
 `;
 
-export const Edit: FC<IEditProps> = ({ month, setMonth: _ }) => {
-  return <$Input type="month" value={stringFromDate(month)} />;
+export const Edit: FC<IEditProps> = ({ month, setMonth }) => {
+  const onChange = (e: FormEvent<HTMLInputElement>) => {
+    setMonth(dateFromString(e.currentTarget.value));
+  };
+  return (
+    <$Input type="month" value={stringFromDate(month)} onChange={onChange} />
+  );
 };
