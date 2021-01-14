@@ -9,6 +9,7 @@ import {
 } from './components';
 import { INavigator } from './navigation/Navigator';
 import { useQueryString } from './hooks/useQueryString';
+import { dateFromString } from './utils';
 
 export interface IAppProps {}
 
@@ -18,19 +19,9 @@ export const App: FC<IAppProps> = () => {
 
   const rawMonthParam = query.get('month');
 
-  const month = useMemo(() => {
-    const [_, rawYear, rawMonth] =
-      /(\d{4})-(\d{2})/.exec(rawMonthParam ?? '') ?? [];
-
-    if (!rawYear || !rawMonth) {
-      return new Date();
-    }
-
-    const year = +rawYear;
-    const monthIndex = +rawMonth - 1;
-
-    return new Date(year, monthIndex);
-  }, [rawMonthParam]);
+  const month = useMemo(() => dateFromString(rawMonthParam ?? ''), [
+    rawMonthParam,
+  ]);
 
   const now = new Date();
 

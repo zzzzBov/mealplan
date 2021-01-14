@@ -1,5 +1,6 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
+import { stringFromDate } from '../utils';
 
 interface IEditProps {
   month: Date;
@@ -19,5 +20,5 @@ const $Input = styled.input`
 `;
 
 export const Edit: FC<IEditProps> = ({ month, setMonth: _ }) => {
-  return <$Input type="month" value={month.toISOString().slice(0, 7)} />;
+  return <$Input type="month" value={stringFromDate(month)} />;
 };
