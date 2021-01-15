@@ -33,7 +33,7 @@ const $Wrapper = styled.div`
 
 const $Table = styled.table`
   border-collapse: collapse;
-  min-width: 60rem;
+  min-width: 70rem;
   table-layout: fixed;
   width: 100%;
 `;

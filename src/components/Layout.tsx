@@ -7,13 +7,15 @@ interface ILayoutProps {
   main: ReactNode;
 }
 
+// prettier-ignore
 const $Wrapper = styled.div`
   display: grid;
   gap: 1em;
   grid-template:
     'header' auto
     'main  ' 1fr
-    'footer' auto;
+    'footer' auto
+  /  100%    ;
   min-height: 100%;
   padding: 4.8rem;
 `;

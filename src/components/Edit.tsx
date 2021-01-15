@@ -14,6 +14,10 @@ const $Input = styled.input`
   top: 0;
   width: 2em;
 
+  @media print {
+    display: none;
+  }
+
   ::-webkit-calendar-picker-indicator {
     margin: 0;
   }
